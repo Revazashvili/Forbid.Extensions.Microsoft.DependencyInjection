@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <LangVersion>10</LangVersion>
@@ -13,6 +12,7 @@
         <RepositoryType>git</RepositoryType>
         <PackageTags>Forbid Microsoft Dependency Injection</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <TargetFrameworks>net5.0;net6.0;netcoreapp3.1;netstandard2.0</TargetFrameworks>
     </PropertyGroup>
 
     <ItemGroup>
