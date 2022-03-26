@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{050FE5CD-190
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forbid.Extensions.Microsoft.DependencyInjection", "src\Forbid.Extensions.Microsoft.DependencyInjection\Forbid.Extensions.Microsoft.DependencyInjection.csproj", "{A7704DA1-23B0-4E63-9800-8EA5B70E51A2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{40BEB3FC-1F7E-418D-8E95-58756BA5EEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forbid.Extensions.Microsoft.DependencyInjection.UnitTests", "tests\Forbid.Extensions.Microsoft.DependencyInjection.UnitTests\Forbid.Extensions.Microsoft.DependencyInjection.UnitTests.csproj", "{D4D41534-9C16-4367-88C1-DBF36B52CAC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A7704DA1-23B0-4E63-9800-8EA5B70E51A2} = {050FE5CD-190E-4F8B-A8F8-FCE290A2FE7D}
+		{D4D41534-9C16-4367-88C1-DBF36B52CAC8} = {40BEB3FC-1F7E-418D-8E95-58756BA5EEF8}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A7704DA1-23B0-4E63-9800-8EA5B70E51A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A7704DA1-23B0-4E63-9800-8EA5B70E51A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7704DA1-23B0-4E63-9800-8EA5B70E51A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7704DA1-23B0-4E63-9800-8EA5B70E51A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D41534-9C16-4367-88C1-DBF36B52CAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D41534-9C16-4367-88C1-DBF36B52CAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D41534-9C16-4367-88C1-DBF36B52CAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D41534-9C16-4367-88C1-DBF36B52CAC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
