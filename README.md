@@ -8,7 +8,6 @@ Package to support Microsoft Dependency Injection for [Forbid](https://www.nuget
 [![GitHub license](https://badgen.net/github/license/Revazashvili/Forbid.Extensions.Microsoft.DependencyInjection)](https://github.com/Revazashvili/Forbid.Extensions.Microsoft.DependencyInjection/blob/main/LICENSE)
 ## Usage
 
-Startup.cs
 ```c#
 using Forbids;
 
