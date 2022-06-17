@@ -6,6 +6,17 @@ Package to support Microsoft Dependency Injection for [Forbid](https://www.nuget
 ![Nuget](https://img.shields.io/nuget/dt/Forbid.Extensions.Microsoft.DependencyInjection?color=blue)
 [![NuGet stable version](https://badgen.net/nuget/v/Forbid.Extensions.Microsoft.DependencyInjection)](https://www.nuget.org/packages/Forbid.Extensions.Microsoft.DependencyInjection)
 [![GitHub license](https://badgen.net/github/license/Revazashvili/Forbid.Extensions.Microsoft.DependencyInjection)](https://github.com/Revazashvili/Forbid.Extensions.Microsoft.DependencyInjection/blob/main/LICENSE)
+
+## Installing
+Using dotnet cli
+```
+dotnet add package Forbid.Extensions.Microsoft.DependencyInjection --version 1.0.0
+```
+or package reference
+```
+<PackageReference Include="Forbid.Extensions.Microsoft.DependencyInjection" Version="1.0.0" />
+```
+
 ## Usage
 
 ```c#
