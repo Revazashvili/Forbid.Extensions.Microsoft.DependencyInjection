@@ -4,7 +4,6 @@ Package to support Microsoft Dependency Injection for [Forbid](https://www.nuget
 
 ## Usage
 
-Startup.cs
 ```c#
 using Forbids;
 

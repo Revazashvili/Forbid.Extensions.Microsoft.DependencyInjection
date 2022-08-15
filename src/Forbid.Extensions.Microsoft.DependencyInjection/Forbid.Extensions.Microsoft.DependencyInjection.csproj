@@ -13,15 +13,24 @@
         <PackageTags>Forbid Microsoft Dependency Injection</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <TargetFrameworks>net5.0;net6.0;netcoreapp3.1;netstandard2.0</TargetFrameworks>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Forbid" Version="1.0.0" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
-        <Content Include="README.md">
-            <Pack>true</Pack>
-            <PackagePath>\</PackagePath>
-        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\..\LICENSE">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+
+        <None Include="..\..\docs\README.md">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
     </ItemGroup>
 
 </Project>
