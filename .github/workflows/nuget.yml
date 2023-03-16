@@ -7,6 +7,7 @@ on:
 
 env:
   PROJECT_PATH: 'src/Forbid.Extensions.Microsoft.DependencyInjection/Forbid.Extensions.Microsoft.DependencyInjection.csproj'
+  TEST_PROJECT_PATH: 'tests/Forbid.Extensions.Microsoft.DependencyInjection.UnitTests/Forbid.Extensions.Microsoft.DependencyInjection.UnitTests.csproj'
   PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}/output
   SOURCE_URL: https://api.nuget.org/v3/index.json
   BUILD_CONFIGURATION: Release
@@ -28,6 +29,9 @@ jobs:
 
       - name: Build
         run: dotnet build ${{ env.PROJECT_PATH }} --no-restore --configuration ${{ env.BUILD_CONFIGURATION }}
+
+      - name: Test
+        run: dotnet test ${{ env.TEST_PROJECT_PATH }} --configuration ${{ env.BUILD_CONFIGURATION }}
 
       - name: Get Version
         id: version
